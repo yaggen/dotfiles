@@ -1,0 +1,92 @@
+@import "mocha.css";
+
+* {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    font-family: "MesloLGS Nerd Font Mono Bold";
+    font-size: 10px;
+    min-height: 0;
+    font-weight: bold;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 2px 2px;
+}
+
+#window {
+ border-radius: 5px;
+ color: @pink;
+ margin: 5px;
+ background-color: @surface0;
+ padding: 0.4rem;
+}
+
+#workspaces {
+  border-radius: 5px;
+  margin: 5px;
+  background-color: @surface0;
+  margin-left: 2px;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+  border-radius: 5px;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 5px;
+}
+
+button {
+  background: transparent;
+}
+
+#tray,
+#pulseaudio,
+#network,
+#clock,
+#custom-power {
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+#network {
+  color: @green;
+}
+
+#clock {
+  color: @blue;
+  border-radius: 5px;
+}
+
+#pulseaudio {
+  color: @maroon;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#custom-power {
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 0px;
+  color: @red;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
