@@ -19,18 +19,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
-    name  = "fs25",
+    name  = "battlenet-hidden",
     match = {
-        class = "^steam_app_0$",
-        title = "^Farming Simulator 25$",
+        class = "^steam_app_2551904729$",
+        title = "^Battle[.]net$",
     },
-    float = false,
-    fullscreen = true,
-    immediate = true,
-    no_shadow = true,
-    no_blur = true,
-    no_anim = true,
-    workspace = 1,
+    workspace = "special:bnet silent",
 })
 
 hl.window_rule({

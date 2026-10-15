@@ -2,13 +2,13 @@
 
 hl.workspace_rule({
     workspace = 1,
-    monitor = "DP-1",
+    monitor = "DP-3",
     default = true,
 })
 
 hl.workspace_rule({
     workspace = 2,
-    monitor = "DP-1",
+    monitor = "DP-3",
     on_created_empty = "firefox",
 })
 
